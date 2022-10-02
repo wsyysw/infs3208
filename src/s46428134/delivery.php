@@ -1,8 +1,8 @@
 <?php 
-        $server="mysql.metropolia.fi";
-        $login="pegahk";
-        $pass="3392796255";
-        $database="pegahk";
+        $server="mysql";
+        $login="php";
+        $pass="php";
+        $database="ShiyunFloral";
 		
 		$con=mysqli_connect($server,$login,$pass,$database);
 		if(mysqli_connect_errno()){
