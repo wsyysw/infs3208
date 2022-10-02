@@ -1,9 +1,9 @@
 
 <?php
-        $server="localhost";
-        $login="root";
-        $pass="";
-        $database="pegahk";
+        $server="mysql";
+        $login="php";
+        $pass="php";
+        $database="ShiyunFloral";
 		
 		$connection=mysqli_connect($server,$login,$pass,$database);
 		if(mysqli_connect_errno()){
